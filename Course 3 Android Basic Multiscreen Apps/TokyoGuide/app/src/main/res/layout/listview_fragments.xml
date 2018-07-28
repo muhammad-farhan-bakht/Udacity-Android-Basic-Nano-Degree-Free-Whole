@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/photoImageView"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                />
+
+            <TextView
+                style="@style/nameTextView"
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+
+            <TextView
+                style="@style/DescriptionTextView"
+                android:id="@+id/descriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+
+            <TextView
+                style="@style/textViewLocationSchedulePhone"
+                android:id="@+id/addressTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_place_black"
+                android:text=""
+                android:autoLink="map"
+                />
+
+            <TextView
+                style="@style/textViewLocationSchedulePhone"
+                android:id="@+id/scheduleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_access_time_black"
+                android:text=""
+               />
+
+            <TextView
+                style="@style/textViewLocationSchedulePhone"
+                android:id="@+id/phoneTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_phone_black"
+                android:text=""
+                android:autoLink="phone"
+               />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

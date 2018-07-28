@@ -1,0 +1,19 @@
+Common Anroid Views:
+https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view
+
+Android Weekly is a weekly newsletter about the latest news in Android development:
+http://androidweekly.net/
+
+MaterialUp curates the best of Material design inspiration and tools:
+https://material.uplabs.com/
+
+Google Developers Experts:
+https://developers.google.com/experts/all/technology/android?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
+
+
+Why Learning to Code is So Damn Hard:
+https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard
+
+
+Intents:
+http://www.vogella.com/tutorials/AndroidIntent/article.html#usingintents_call

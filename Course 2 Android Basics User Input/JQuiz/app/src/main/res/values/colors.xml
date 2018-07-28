@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
+    <color name="colorAccent">#9C27B0</color>
+
+    <!-- Parent Linear Layout Color -->
+    <color name="parentBackgroundColor">@android:color/white</color>
+
+    <!-- Container LinearLayout Of Question All Content -->
+    <color name="containerBackgroundColor">@android:color/white</color>
+
+    <!-- Heading and Footer Color -->
+    <color name="headingColor">#D500F9</color>
+
+    <!-- Button Background Color -->
+    <color name="buttonBackgroundColor">#D500F9</color>
+
+    <!-- Separator Color -->
+    <color name="separatorColor">#EA80FC</color>
+
+</resources>

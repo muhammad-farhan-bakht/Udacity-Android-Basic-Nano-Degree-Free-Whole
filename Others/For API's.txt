@@ -1,0 +1,11 @@
+
+https://earthquake.usgs.gov/fdsnws/event/1/
+
+https://www.programmableweb.com/apis/directory
+
+https://developers.google.com/apis-explorer/#p/
+
+
+Programmable Web API Directory: http://www.programmableweb.com/apis/directory
+Google APIs Explorer: https://developers.google.com/apis-explorer/#p/
+Data.gov: http://data.gov

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+    <string name="songList">Song List</string>
+    <string name="nowPlaying">Now Playing</string>
+    <string name="recentPlaylist">Recent Playlist</string>
+
+    <string name="mText_songList"> Song List </string>
+    <string name="mText_nowPlaying"> Now playing</string>
+    <string name="mText_recentList"> Recent List</string>
+
+</resources>

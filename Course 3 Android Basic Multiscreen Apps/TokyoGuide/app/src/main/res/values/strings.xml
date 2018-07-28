@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Tokyo Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- String for Food Fragments Start -->
+    <string name="Food_One_Name">Tofuya Ukai </string>
+    <string name="Food_One_Dec"> Built around a beautiful traditional garden, Tofuya Ukais low&#8211;rise complex of private rooms offers a glimpse of how Tokyo used to look and dine before the modern high&#8211;rise city developed. Multi&#8211;course meals include elaborate appetizers like the specialty artisan bean curd served in hot pots in winter or chilled in summer.</string>
+    <string name="Food_One_Location">4413 Shibakoen, Minatoku, Tokyo </string>
+    <string name="Food_One_Schedule">12:00p.m.&#8211;11:00p.m </string>
+    <string name="Food_One_Phone">+81 3&#8211;3436&#8211;1028 </string>
+
+    <string name="Food_Two_Name">Otafuku </string>
+    <string name="Food_Two_Dec">Oden is the quintessential Japanese winter soul food, nibbled tapas style and chased down with beer, sake, or shochu. The tradition remains alive at Otafuku, where the fifth&#8211;generation master tends copper stewpots filled with vegetables and seafood simmered down in rich dashi stock. Having survived quakes, war, and shifts in fashion.</string>
+    <string name="Food_Two_Location">Taitoku,Tokyo To 1110031, Japan </string>
+    <string name="Food_Two_Schedule"> 12:00p.m.&#8211;11:00p.m </string>
+    <string name="Food_Two_Phone">+81&#8211;6413&#8211;8480 </string>
+
+    <string name="Food_Three_Name">Quintessence  </string>
+    <string name="Food_Three_Dec">Some of the finest French cuisine in the world is in Tokyo. If you need proof of that, just book yourself  by hook, by crook, or by concierge  into Quintessence. Chef&#8211;owner Shuzo Kishida readily acknowledges the influences of his mentor, Pascal Barbot of LAstrance in Paris, but he is very much forging his own path. </string>
+    <string name="Food_Three_Location">ShinagawaKu Kitashinagawa 6729 Garden City Shinagawa Gotenyama 1F </string>
+    <string name="Food_Three_Schedule">12:00p.m.&#8211;11:00p.m </string>
+    <string name="Food_Three_Phone">+81&#8211;（0）3&#8211;6277&#8211;0090 </string>
+
+    <string name="Food_Four_Name">Florilège </string>
+    <string name="Food_Four_Dec"> Melding flair, precision, and premium local ingredients, chef Hiroyasu Kawates intricate 11&#8211;course tasting menu (six courses at lunch) is as bold and theatrical as his dining room, a 16&#8211;seat counter around a huge open kitchen. The former Quintessence sous chef moved into new premises in early 2015 and is now delivering some of the most exciting, innovative modern French cuisine in the city </string>
+    <string name="Food_Four_Location">Minato, Tokyo, Japan </string>
+    <string name="Food_Four_Schedule">12:00p.m.&#8211;11:00p.m </string>
+    <string name="Food_Four_Phone">+81 3&#8211;6440&#8211;0878 </string>
+
+    <string name="Food_Five_Name"> Sushi Tokami </string>
+    <string name="Food_Five_Dec"> One of the most talented of Tokyos sushi young guns, Hiroyuki Sato won a Michelin star within months of opening Tokami in 2013. From his opening tossaki tuna roll to the distinctive red vinegar he uses in his sushi rice and the closing brûlée&#8211;style tamagoyaki omelet, Satos omakase menu demonstrates that he already has a clear signature style of his own </string>
+    <string name="Food_Five_Location"> Tokyo, 1040061, Japan </string>
+    <string name="Food_Five_Schedule"> 12:00p.m.&#8211; 11:00p.m </string>
+    <string name="Food_Five_Phone">+81 3&#8211;3571&#8211;6005 </string>
+    <!-- String for Food Fragments End -->
+
+    <!-- String for Sights Fragments Start -->
+    <string name="Sight_One_Name">The Imperial Palace </string>
+    <string name="Sight_One_Dec"> The chief attraction of Tokyos Marunouchi district is the Imperial Palace with its beautiful 17th&#8211;century parks surrounded by walls and moats. Still in use by the Imperial family, the Imperial Palace stands on the site where, in 1457, the Feudal Lord Ota Dokan built the first fortress, the focal point from which the city of Tokyo (or Edo, as it was then) gradually spread. </string>
+    <string name="Sight_One_Location">Japan, 1008111 Tokyo, Chiyoda, 11 </string>
+    <string name="Sight_One_Schedule">9AM–4:30PM </string>
+    <string name="Sight_One_Phone">+81 3&#8211;3213&#8211;1111 </string>
+
+    <string name="Sight_Two_Name">Asakusa and the Sensō&#8211;ji Temple </string>
+    <string name="Sight_Two_Dec"> In the Asakusa district of Tokyo, the exquisite Sensōji Templethe citys most famous shrine stands at the end of a long street of shops where masks, carvings, combs made of ebony and wood, toys, kimonos, fabrics, and precious paper goods are on sale. Dedicated to Kannon, the Buddhist goddess of compassion, the temple was established in AD 645 and retains its original appearance despite having been rebuilt numerous times. </string>
+    <string name="Sight_Two_Location">2 Chome31 Asakusa, Taito, Tokyo 1110032 </string>
+    <string name="Sight_Two_Schedule">9AM–4:30PM </string>
+    <string name="Sight_Two_Phone">+81 3&#8211;3842&#8211;0181 </string>
+
+    <string name="Sight_Three_Name">Ueno Park and Zoo </string>
+    <string name="Sight_Three_Dec">A paradise-like oasis of green in the heart of busy Tokyo, Ueno Park is the citys largest green space and one of its most popular tourist attractions. In addition to its lovely grounds, the park also boasts a zoo, aquarium, and numerous temples and museums to explore. Criss&#8211;crossed by pleasant gravel paths, this 212&#8211;acre park includes highlights such as a trip on a small boat on the reed-fringed Shinobazu pond, around a little island with its Bentendo Temple </string>
+    <string name="Sight_Three_Location">  983 Uenokoen, Taito, Tokyo 1100007, Japan</string>
+    <string name="Sight_Three_Schedule">9:30AM–5PM </string>
+    <string name="Sight_Three_Phone">+81 3&#8211;828&#8211;5171 </string>
+
+    <string name="Sight_Four_Name">Tokyo National Museum </string>
+    <string name="Sight_Four_Dec">The National Museum of Tokyo houses more than 100,000 important works of Japanese, Chinese, and Indian art, including more than 100 national treasures. Opened in 1938, the museum includes highlights such as numerous Buddhist sculptures from Japan and China dating from the 6th century to the present; a collection of old textiles, historical weapons, and military equipment; historical Japanese clothing; as well as Asian ceramics and pottery. </string>
+    <string name="Sight_Four_Location">139 Ueno Park, Taitoku, Tokyo, 1108712 </string>
+    <string name="Sight_Four_Schedule"> 9:30AM–5PM</string>
+    <string name="Sight_Four_Phone">+81 3&#8211;3822&#8211;1111 </string>
+
+    <string name="Sight_Five_Name">The Tokyo Skytree </string>
+    <string name="Sight_Five_Dec"> Its hard to miss the Tokyo Skytree (Tōkyō Sukaitsurī), a 634&#8211;meter&#8211;tall communications and observation tower that rises out of the citys Sumida district of Minato like a huge rocket ship. The countrys tallest structure (and the worlds tallest freestanding tower), the Tokyo Skytree opened in 2012 and has quickly become one of the citys most visited tourist attractions thanks to the incredible panoramic views from its restaurant and observation decks.</string>
+    <string name="Sight_Five_Location">1 Chome12 Oshiage, Sumida, Tokyo 1310045, Japan </string>
+    <string name="Sight_Five_Schedule">8AM–10PM </string>
+    <string name="Sight_Five_Phone">+81 570&#8211;550&#8211;634 </string>
+    <!-- String for Sights Fragments End -->
+
+    <!-- String for Shops Fragments Starts -->
+    <string name="Shop_One_Name"> ONE PIECE MUGIWARA STORE </string>
+    <string name="Shop_One_Dec">ONE PIECE MUGIWARA Store is an exclusive shop that sells manga and anime merchandise from the very popular manga and anime titled ONE PIECE. Fans of the series frequently visit this store to buy figurines of their favorite character in the series. </string>
+    <string name="Shop_One_Location">1 Chome226 Jinnan, Shibuyaku, Tokyo </string>
+    <string name="Shop_One_Schedule">10AM–12PM </string>
+    <string name="Shop_One_Phone">+81 570&#8211;550&#8211;634 </string>
+
+    <string name="Shop_Two_Name">Mandarake </string>
+    <string name="Shop_Two_Dec">Mandarake was originally a shop that sells manga and was established in 1987. Today, Mandarake has spread its influence and opened up many branches in key areas around Tokyo. Their store in Akihabara has 8 floors and sells a wide range of manga, anime, cosplay, toys, game consoles and doujinshi. </string>
+    <string name="Shop_Two_Location">Sotokanda 31112, Chiyodaku, Tokyo </string>
+    <string name="Shop_Two_Schedule">10AM–12PM </string>
+    <string name="Shop_Two_Phone">+81 570&#8211;550&#8211;634 </string>
+
+    <string name="Shop_Three_Name">K&#8211;Books </string>
+    <string name="Shop_Three_Dec"> K&#8211;Books have branches in Akihabara and Ikebukuro, and they wont lose to any of their competitors when it comes to anything related to manga and anime. Aside from selling anime and manga products, they also buy them for a reasonable price. Rare and high&#8211;quality goods can fetch a good price if you are willing to sell them to the K&#8211;Books Store. </string>
+    <string name="Shop_Three_Location">1 Chome1516 Sotokanda Chiyodaku, Tokyo </string>
+    <string name="Shop_Three_Schedule">10AM–12PM </string>
+    <string name="Shop_Three_Phone">+81 570&#8211;550&#8211;634 </string>
+
+    <string name="Shop_Four_Name">GAMERS In Akihabara </string>
+    <string name="Shop_Four_Dec">The GAMERS store in Akihabara is a very popular place to visit when looking for anime and manga merchandise. Its close proximity to the station is one of the reasons why this place is a great hangout place for those who love manga and anime. The store in Akihabara has 8 floors and offers a wide variety of manga and anime goodies! GAMERS have 17 stores including the Akihabara main branch. </string>
+    <string name="Shop_Four_Location">1147 SotoKanda, Chiyodaku, Tokyo </string>
+    <string name="Shop_Four_Schedule">10AM–12PM </string>
+    <string name="Shop_Four_Phone">+81 570&#8211;550&#8211;634 </string>
+
+    <string name="Shop_Five_Name">Tokyo Anime Center </string>
+    <string name="Shop_Five_Dec">Japanese anime has fans all over the world. The popularity of anime culture has yet to know when to stop as a form of global entertainment, and Akihabara is the place for anime. The area is known as Japans leading electronics district, but it is also the place where Japans anime and otaku culture first developed. There is a multi&#8211;purpose complex right in the heart of Akihabara, Akihabara UDX, which is where the Tokyo Anime Center is located. It is a facility where displays and events connected with anime are shown and visitors can find out the latest information on the genre. </string>
+    <string name="Shop_Five_Location">4F Akihabara UDX, 4141 Sotokanda, Chiyodaku, Toky </string>
+    <string name="Shop_Five_Schedule">11:00am-7:00pm , Closed: Monday </string>
+    <string name="Shop_Five_Phone">+81 570&#8211;550&#8211;634 </string>
+    <!-- String for Shops Fragments End -->
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.farhan.musicalstructure.MainActivity">
+
+    <Button
+        android:id="@+id/btnSongList"
+        style="@style/myBtn"
+        android:layout_margin="@dimen/song_list"
+        android:text="@string/songList" />
+
+    <Button
+        android:id="@+id/btnNowPlaying"
+        style="@style/myBtn"
+        android:layout_margin="@dimen/now_playing"
+        android:text="@string/nowPlaying" />
+
+    <Button
+        android:id="@+id/btnRecentPlay"
+        style="@style/myBtn"
+        android:layout_margin="@dimen/recent_playlist"
+        android:text="@string/recentPlaylist" />
+
+
+</LinearLayout>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.farhan.jquiz.MainActivity">
+
+    <!--Parent LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/parentBackgroundColor"
+        android:orientation="vertical"> <!-- android:background="" -->
+
+        <!-- Main Header Heading -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/main_heading"
+            android:textColor="@color/headingColor"
+            android:textSize="18sp" />
+
+        <!-- Container LinearLayout Of Question All Content -->
+        <LinearLayout style="@style/questionAllContentParentLinearLayout">
+
+            <!-- Question? -->
+            <TextView
+                style="@style/questionText"
+                android:text="@string/question_one" />
+
+            <!-- Parent LinearLayout of RadioGroups Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfRadioGroups">
+
+                <!-- RadioGroup of Radio Buttons -->
+                <RadioGroup style="@style/radioGroups">
+
+                    <RadioButton
+                        android:id="@+id/questionOneGuessOne"
+                        style="@style/radioButtons"
+                        android:text="@string/question_one_guess_one" />
+
+                    <RadioButton
+                        android:id="@+id/questionOneCorrectAnswer"
+                        style="@style/radioButtons"
+                        android:text="@string/question_one_guess_two" />
+
+                    <RadioButton
+                        android:id="@+id/questionOneGuessThree"
+                        style="@style/radioButtons"
+                        android:text="@string/question_one_guess_four" />
+
+                    <RadioButton
+                        android:id="@+id/questionOneGuessFour"
+                        style="@style/radioButtons"
+                        android:text="@string/question_one_guess_three" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <!-- Parent LinearLayout Of Hint Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfHintSection">
+
+                <TextView
+                    android:id="@+id/questionOneHintOnClickColorChange"
+                    style="@style/hintTextView"
+                    android:onClick="questionOneHintOnClick"
+                    android:text="@string/view_hint" />
+
+                <TextView
+                    android:id="@+id/questionOneHintAnswer"
+                    style="@style/hintAnswerTextView"
+                    android:text="@string/question_one_hint" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Separator Between Questions -->
+        <View style="@style/separator" />
+
+        <!-- Question All Content Parent LinearLayout -->
+        <LinearLayout style="@style/questionAllContentParentLinearLayout">
+
+            <!-- Question? -->
+            <TextView
+                style="@style/questionText"
+                android:text="@string/question_two" />
+
+            <!-- Parent LinearLayout of RadioGroups Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfRadioGroups">
+
+                <!-- RadioGroup of Radio Buttons -->
+                <RadioGroup style="@style/radioGroups">
+
+                    <RadioButton
+                        android:id="@+id/questionTwoCorrectAnswer"
+                        style="@style/radioButtons"
+                        android:text="@string/question_two_guess_one" />
+
+                    <RadioButton
+                        android:id="@+id/questionTwoGuessOne"
+                        style="@style/radioButtons"
+                        android:text="@string/question_two_guess_two" />
+
+                    <RadioButton
+                        android:id="@+id/questionTwoGuessTwo"
+                        style="@style/radioButtons"
+                        android:text="@string/question_two_guess_three" />
+
+                    <RadioButton
+                        android:id="@+id/questionTwoGuessThree"
+                        style="@style/radioButtons"
+                        android:text="@string/question_two_guess_four" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <!-- Parent LinearLayout Of Hint Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfHintSection">
+
+                <TextView
+                    android:id="@+id/questionTwoHintOnClickColorChange"
+                    style="@style/hintTextView"
+                    android:onClick="questionTwoHintOnClick"
+                    android:text="@string/view_hint" />
+
+                <TextView
+                    android:id="@+id/questionTwoHintAnswer"
+                    style="@style/hintAnswerTextView"
+                    android:text="@string/question_two_hint" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Separator Between Questions -->
+        <View style="@style/separator" />
+
+        <!-- Question All Content Parent LinearLayout -->
+        <LinearLayout style="@style/questionAllContentParentLinearLayout">
+
+            <!-- Question? -->
+            <TextView
+                style="@style/questionText"
+                android:text="@string/question_three" />
+
+            <!-- Parent LinearLayout of RadioGroups Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfRadioGroups">
+
+                <!-- RadioGroup of Radio Buttons -->
+                <RadioGroup style="@style/radioGroups">
+
+                    <RadioButton
+                        android:id="@+id/questionThreeGuessOne"
+                        style="@style/radioButtons"
+                        android:text="@string/question_three_guess_one" />
+
+                    <RadioButton
+                        android:id="@+id/questionThreeCorrectAnswer"
+                        style="@style/radioButtons"
+                        android:text="@string/question_three_guess_two" />
+
+                    <RadioButton
+                        android:id="@+id/questionThreeGuessTwo"
+                        style="@style/radioButtons"
+                        android:text="@string/question_three_guess_three" />
+
+                    <RadioButton
+                        android:id="@+id/questionThreeGuessThree"
+                        style="@style/radioButtons"
+                        android:text="@string/question_three_guess_four" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <!-- Parent LinearLayout Of Hint Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfHintSection">
+
+                <TextView
+                    android:id="@+id/questionThreeHintOnClickColorChange"
+                    style="@style/hintTextView"
+                    android:onClick="questionThreeHintOnClick"
+                    android:text="@string/view_hint" />
+
+                <TextView
+                    android:id="@+id/questionThreeHintAnswer"
+                    style="@style/hintAnswerTextView"
+                    android:text="@string/question_three_hint" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Separator Between Questions -->
+        <View style="@style/separator" />
+
+        <!-- Question All Content Parent LinearLayout -->
+        <LinearLayout style="@style/questionAllContentParentLinearLayout">
+
+            <!-- Question? -->
+            <TextView
+                style="@style/questionText"
+                android:text="@string/question_four" />
+
+            <!-- Parent LinearLayout of CheckBox Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfCheckBoxSection">
+
+                <!-- Container LinearLayout of CheckBox Left Side -->
+                <LinearLayout style="@style/containerOfCheckBoxes">
+
+                    <CheckBox
+                        android:id="@+id/questionFourCorrectAnswerOne"
+                        style="@style/checkBoxLHS"
+                        android:text="@string/question_four_guess_one" />
+
+                    <CheckBox
+                        android:id="@+id/questionFourCorrectAnswerTwo"
+                        style="@style/checkBoxLHS"
+                        android:text="@string/question_four_guess_two" />
+                </LinearLayout>
+
+                <!-- Container LinearLayout of CheckBox Right Side -->
+                <LinearLayout style="@style/containerOfCheckBoxes">
+
+                    <CheckBox
+                        android:id="@+id/questionFourGuessThree"
+                        style="@style/checkBoxRHS"
+                        android:text="@string/question_four_guess_three" />
+
+                    <CheckBox
+                        android:id="@+id/questionFourGuessFour"
+                        style="@style/checkBoxRHS"
+                        android:text="@string/question_four_guess_four" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Parent LinearLayout Of Hint Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfHintSection">
+
+                <TextView
+                    android:id="@+id/questionFourHintOnClickColorChange"
+                    style="@style/hintTextView"
+                    android:onClick="questionFourHintOnClick"
+                    android:text="@string/view_hint" />
+
+                <TextView
+                    android:id="@+id/questionFourHintAnswer"
+                    style="@style/hintAnswerTextView"
+                    android:text="@string/question_four_hint" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Separator Between Questions -->
+        <View style="@style/separator" />
+
+        <!-- Question All Content Parent LinearLayout -->
+        <LinearLayout style="@style/questionAllContentParentLinearLayout">
+
+            <!-- Question? -->
+            <TextView
+                style="@style/questionText"
+                android:text="@string/question_five" />
+
+            <!-- Parent LinearLayout of CheckBox Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfCheckBoxSection">
+
+                <!-- Container LinearLayout of CheckBox Left Side -->
+                <LinearLayout style="@style/containerOfCheckBoxes">
+
+                    <CheckBox
+                        android:id="@+id/questionFiveCorrectAnswerOne"
+                        style="@style/checkBoxLHS"
+                        android:text="@string/question_five_guess_one" />
+
+                    <CheckBox
+                        android:id="@+id/questionFiveCorrectAnswerTwo"
+                        style="@style/checkBoxLHS"
+                        android:text="@string/question_five_guess_two" />
+                </LinearLayout>
+
+                <!-- Container LinearLayout of CheckBox Right Side -->
+                <LinearLayout style="@style/containerOfCheckBoxes">
+
+                    <CheckBox
+                        android:id="@+id/questionFiveGuessThree"
+                        style="@style/checkBoxRHS"
+                        android:text="@string/question_five_guess_three" />
+
+                    <CheckBox
+                        android:id="@+id/questionFiveGuessFour"
+                        style="@style/checkBoxRHS"
+                        android:text="@string/question_five_guess_four" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Parent LinearLayout Of Hint Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfHintSection">
+
+                <TextView
+                    android:id="@+id/questionFiveHintOnClickColorChange"
+                    style="@style/hintTextView"
+                    android:onClick="questionFiveHintOnClick"
+                    android:text="@string/view_hint" />
+
+                <TextView
+                    android:id="@+id/questionFiveHintAnswer"
+                    style="@style/hintAnswerTextView"
+                    android:text="@string/question_five_hint" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Separator Between Questions -->
+        <View style="@style/separator" />
+
+        <!-- Question All Content Parent LinearLayout -->
+        <LinearLayout style="@style/questionAllContentParentLinearLayout">
+
+            <!-- Question? -->
+            <TextView
+                style="@style/questionText"
+                android:text="@string/question_six" />
+
+            <!-- Answer EditText -->
+            <EditText
+                android:id="@+id/answerSixEditText"
+                style="@style/answerEditText"
+                tools:ignore="LabelFor" />
+
+            <!-- Parent LinearLayout Of Hint Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfHintSection">
+
+                <TextView
+                    android:id="@+id/questionSixHintOnClickColorChange"
+                    style="@style/hintTextView"
+                    android:onClick="questionSixHintOnClick"
+                    android:text="@string/view_hint" />
+
+                <TextView
+                    android:id="@+id/questionSixHintAnswer"
+                    style="@style/hintAnswerTextView"
+                    android:text="@string/question_six_hint" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Separator Between Questions -->
+        <View style="@style/separator" />
+
+        <!-- Question All Content Parent LinearLayout -->
+        <LinearLayout style="@style/questionAllContentParentLinearLayout">
+
+            <!-- Question? -->
+            <TextView
+                style="@style/questionText"
+                android:text="@string/question_seven" />
+
+            <!-- Answer EditText -->
+            <EditText
+                android:id="@+id/answerSevenEditText"
+                style="@style/answerEditText"
+                tools:ignore="LabelFor" />
+
+            <!-- Parent LinearLayout Of Hint Section -->
+            <LinearLayout style="@style/parentLinearLayoutOfHintSection">
+
+                <TextView
+                    android:id="@+id/questionSevenHintOnClickColorChange"
+                    style="@style/hintTextView"
+                    android:onClick="questionSevenHintOnClick"
+                    android:text="@string/view_hint" />
+
+                <TextView
+                    android:id="@+id/questionSevenHintAnswer"
+                    style="@style/hintAnswerTextView"
+                    android:text="@string/question_seven_hint" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Separator Between Questions -->
+        <View style="@style/separator" />
+
+        <!-- Show Result Button -->
+        <Button
+            style="@style/showResults"
+            android:onClick="showResultsOnClick"
+            android:text="@string/show_result" />
+
+        <!-- Main Header Heading -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/footer_hading"
+            android:textColor="@color/headingColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
+

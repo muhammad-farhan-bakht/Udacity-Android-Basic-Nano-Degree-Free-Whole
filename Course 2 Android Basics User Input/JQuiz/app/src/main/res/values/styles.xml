@@ -1,0 +1,144 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/black</item>
+
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/buttonBackgroundColor</item>
+
+    </style>
+
+    <!-- Container LinearLayout Of Question All Content -->
+    <style name="questionAllContentParentLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/containerBackgroundColor</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <!-- Question? -->
+    <style name="questionText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- Parent LinearLayout of RadioGroups Section -->
+    <style name="parentLinearLayoutOfRadioGroups">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- RadioGroups -->
+    <style name="radioGroups">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Radio Buttons of RadioGroup -->
+    <style name="radioButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+
+    <!-- Parent LinearLayout Of Hint Section -->
+    <style name="parentLinearLayoutOfHintSection">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- TextView of Hint  -->
+    <style name="hintTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textSize">14.5sp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- TextView of Hint's Answer -->
+    <style name="hintAnswerTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <!-- Separator -->
+    <style name="separator">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@color/separatorColor</item>
+    </style>
+
+    <!-- Parent LinearLayout of CheckBox Section -->
+    <style name="parentLinearLayoutOfCheckBoxSection">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Container Of CheckBoxes -->
+    <style name="containerOfCheckBoxes">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- CheckBoxes of Left Side RadioGroup -->
+    <style name="checkBoxLHS">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+
+    <!-- CheckBoxes of Right Side RadioGroup -->
+    <style name="checkBoxRHS">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Answer EditText -->
+    <style name="answerEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Write Your Answer Here</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:textColor">@color/headingColor</item>
+    </style>
+
+    <!-- Show Result Button -->
+    <style name="showResults">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
+

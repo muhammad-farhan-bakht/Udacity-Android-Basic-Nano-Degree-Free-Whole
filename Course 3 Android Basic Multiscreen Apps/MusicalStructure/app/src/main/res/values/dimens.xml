@@ -1,0 +1,6 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="song_list">35dp</dimen>
+    <dimen name="now_playing">35dp</dimen>
+    <dimen name="recent_playlist">35dp</dimen>
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">JQuiz</string>
+    <string name="main_heading">Java General Knowledge </string>
+    <string name="view_hint">View Hint: </string>
+    <string name="show_result">Show Result </string>
+    <string name="footer_hading">Thank You For Playing </string>
+
+    <string name="question_one">1- Java is Developed By ______ </string>
+    <string name="question_one_guess_one">Dennis Ritchie</string>
+    <string name="question_one_guess_two">James Gosling </string>
+    <string name="question_one_guess_three">Mark Zuckerberg </string>
+    <string name="question_one_guess_four">Bill Gates </string>
+    <string name="question_one_hint">The first letter of Java. </string>
+
+    <string name="question_two">2- Java First appeared in ______ </string>
+    <string name="question_two_guess_one">1995</string>
+    <string name="question_two_guess_two">1997 </string>
+    <string name="question_two_guess_three">2000 </string>
+    <string name="question_two_guess_four">1999 </string>
+    <string name="question_two_hint">Its an old programing language. </string>
+
+    <string name="question_three">3- What is the first name of Java ______ </string>
+    <string name="question_three_guess_one">Java coffee</string>
+    <string name="question_three_guess_two">Oak </string>
+    <string name="question_three_guess_three">Green </string>
+    <string name="question_three_guess_four">Iced Tea </string>
+    <string name="question_three_hint">The creator of java have a nice view of a tree outside of his office window. </string>
+
+    <string name="question_four">4- From which languages java drives its syntax ______ </string>
+    <string name="question_four_guess_one">c</string>
+    <string name="question_four_guess_two">c++ </string>
+    <string name="question_four_guess_three">Python </string>
+    <string name="question_four_guess_four">HTML </string>
+    <string name="question_four_hint">Java is an old language of its time. </string>
+
+    <string name="question_five">5- The primary goals in the creation of the Java language were ______ </string>
+    <string name="question_five_guess_one">Object-oriented</string>
+    <string name="question_five_guess_two">Secure </string>
+    <string name="question_five_guess_three">Platform dependent </string>
+    <string name="question_five_guess_four">Fastest </string>
+    <string name="question_five_hint">Java takes some time to compile its code and can run in every machine </string>
+
+    <string name="question_six">6- What is full form of word WORA ______ </string>
+    <string name="question_six_hint">It is a famous quote when java came into being. </string>
+
+    <string name="question_seven">7- What is full form of word OOP ______ </string>
+    <string name="question_seven_hint">It is a core of Java. </string>
+
+</resources>

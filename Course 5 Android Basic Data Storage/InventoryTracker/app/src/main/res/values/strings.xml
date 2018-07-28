@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Inventory Tracker</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding an Product</string>
+
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete Item</string>
+
+
+    <string name="read_more">Read More</string>
+    <string name="item">Item:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="price">Price:</string>
+    <string name="product_name">Product Name</string>
+    <string name="price_title">Price</string>
+    <string name="quantity_title">Quantity</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="hint_supplier_name">Biscuit Supplier LU</string>
+    <string name="supplier_phone">Supplier Phone</string>
+    <string name="supplier_phone_hint">e.g. +92 000-000-00</string>
+    <string name="email">E-mail</string>
+    <string name="email_hint">example@abc.com</string>
+    <string name="image">Image</string>
+    <string name="select_image">Select Image</string>
+    <string name="menu_order_item">Order more</string>
+    <string name="_1">1</string>
+    <string name="please_select_image">Please Select Image</string>
+    <string name="unsaved_changes_dialog_msg">There are unsaved changes in the product information. Do you want to continue?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="add_new_item">Add New Product</string>
+    <string name="edit_item">Edit Product</string>
+    <string name="delete_message">Are you sure you want to delete this product?</string>
+    <string name="delete">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="order_message">To place an order for this item by phone or e-mail</string>
+    <string name="phone">Phone</string>
+    <string name="delete_message_all">Are you sure you want to delete all products?</string>
+
+</resources>
